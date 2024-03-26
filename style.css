@@ -1,4 +1,4 @@
-.negr {
+.nadpis {
    font-family: "Anta", sans-serif;
 }
 
@@ -40,3 +40,9 @@ footer {
    display: flex;
    flex-direction: column;
    }
+
+li {
+   list-style: none;
+   display: inline;
+   text-align: center;
+}
