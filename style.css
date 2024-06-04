@@ -2,7 +2,7 @@
    --color-primary: rgb(255, 0, 0);
    --background-color-outline: rgb(128, 128, 128);
    --color-secondary: rgb(139, 0, 0);
-   --background-color: 
+   --background-color: rgb(211, 211, 211)
 }
 
 .nadpis {
@@ -12,14 +12,15 @@
  header {
     background-color: var(--background-color-outline);
     color: var(--color-primary);
-    display: flex;
-    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    min-width: 100%;
     justify-content: space-between;
     text-align: center
- }
+   }  
  
  body {
-    background-color: lightgray;
+    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -92,7 +93,8 @@ a:link {
    padding: 6px;
    border: 1px solid var(--color-primary);
    font-size: 24px;
-   background-color: var(--background-color-outline);
+   color: var(--color-primary);
+   background-color: var(--background-color);
 }
 button {
    max-width: 200px;
@@ -102,3 +104,7 @@ button {
    margin: auto;
 }
 
+@media only screen and (min-width:720)
+{
+
+}
